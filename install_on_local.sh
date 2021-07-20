@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # conda pkgs
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
 conda create -n af2 python=3.8 -y
 # conda init bash
 # conda activate af2
