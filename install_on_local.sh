@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # conda pkgs
+conda init bash
 conda create -n af2 python=3.8 -y
 conda activate af2
 
