@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # conda pkgs
-conda init bash
 conda create -n af2 python=3.8 -y
+conda init bash
 conda activate af2
 
 conda install -y -c nvidia cudnn==8.0.4
