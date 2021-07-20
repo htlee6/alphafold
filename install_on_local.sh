@@ -2,13 +2,13 @@
 
 # conda pkgs
 conda create -n af2 python=3.8 -y
-conda init bash
-conda activate af2
+# conda init bash
+# conda activate af2
 
-conda install -y -c nvidia cudnn==8.0.4
-conda install -y -c bioconda hmmer hhsuite==3.3.0 kalign2
+conda install -y -n af2 -c nvidia cudnn==8.0.4
+conda install -y -n af2 -c bioconda hmmer hhsuite==3.3.0 kalign2
 
-conda install -y -c conda-forge \
+conda install -y -n af2 -c conda-forge \
       openmm=7.5.1 \
       pdbfixer \
       pip
